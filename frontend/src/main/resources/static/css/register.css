@@ -1,0 +1,77 @@
+/* Register Page Styles */
+
+.register-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.register-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container label {
+    font-weight: 600;
+    margin-top: 1rem;
+    color: #333;
+}
+
+.register-container input,
+.register-container select {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.register-container input:focus,
+.register-container select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.register-container button {
+    padding: 0.75rem;
+    margin-top: 1.5rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-container button:hover {
+    background-color: #229954;
+}
+
+.register-container p {
+    text-align: center;
+    margin-top: 1rem;
+    color: #666;
+}
+
+.register-container a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}
