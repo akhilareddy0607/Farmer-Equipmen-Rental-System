@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Farmer Equipment Rental System</title>
+    <link rel="stylesheet" href="../src/main/resources/static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Equipment Booking</h1>
+    </header>
+    <main>
+        <section class="booking-form">
+            <h2>Book Equipment</h2>
+            <form>
+                <label for="equipment">Equipment:</label>
+                <select id="equipment" name="equipment" required>
+                    <option value="">Select Equipment</option>
+                </select>
+                
+                <label for="start_date">Start Date:</label>
+                <input type="date" id="start_date" name="start_date" required>
+                
+                <label for="end_date">End Date:</label>
+                <input type="date" id="end_date" name="end_date" required>
+                
+                <label for="location">Delivery Location:</label>
+                <input type="text" id="location" name="location" required>
+                
+                <label for="notes">Additional Notes:</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+                
+                <button type="submit">Proceed to Payment</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Farmer Equipment Rental System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
